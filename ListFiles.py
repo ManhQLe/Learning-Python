@@ -10,4 +10,4 @@ def rename_file():
         os.rename(f,f.translate(None,"0123456789"))
     os.chdir(saved_path)
 
-rename_file();
+rename_file()
