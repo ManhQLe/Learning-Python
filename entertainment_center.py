@@ -16,6 +16,12 @@ avatar = media.Movie(
 
 
 print toy_story.storyline
-toy_story.show_trailer()
+#toy_story.show_trailer()
 
-fresh_tomatoes.open_movies_page([avatar,toy_story])
+#fresh_tomatoes.open_movies_page([avatar,toy_story])
+
+print(media.Movie.VALID_RATINGS)
+
+print(media.Movie.__doc__)
+print(media.Movie.__name__)
+print(media.Movie.__module__)
