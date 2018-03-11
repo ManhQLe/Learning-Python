@@ -42,9 +42,18 @@ m9 = np.array([
     [2,2,2],
     [3,3,3]
 ])
-print(m9.shape)
+print(m9.shape[0])
 
 m10 = np.matmul(m9,m8)
 
 print(m10.shape)
 print(m10)
+
+
+m11 = np.transpose(m8)
+
+print(m11)
+
+print(np.average([1,2]))
+
+
