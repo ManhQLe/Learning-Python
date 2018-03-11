@@ -22,3 +22,29 @@ m6 = m4 + m5
 print(m3)
 
 print(m6)
+
+
+m7 = np.multiply(m4,m5)
+
+print(m7)
+
+
+m8 = np.array([
+    [1,2],
+    [3,4],
+    [5,6]    
+])
+
+print(m8.shape)
+
+m9 = np.array([
+    [1,1,1],
+    [2,2,2],
+    [3,3,3]
+])
+print(m9.shape)
+
+m10 = np.matmul(m9,m8)
+
+print(m10.shape)
+print(m10)
